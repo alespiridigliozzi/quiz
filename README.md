@@ -1,13 +1,6 @@
-# quiz
-A JavaScript Quiz Game
+# JavaScript Trivia Game
 
-- questions with 4 answer choices: 1 true, 3 false ->
-    Object Quiz {question: question, answers: [answer1: text, value: true/false]}
+### A Trivia quiz that uses an Object containing different questions. Each question has 4 answers, and only one of them is correct. The correct answers have a value of true.
 
-- Counter 0 /15.
-    If User answers right, +1 to counter.
 
-- Button to go to next question after user selects an answer.
-
-- If answer is right: button changes to green. If wrong, button changes to red, and the correct one changes to green
 
