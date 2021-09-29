@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Trivia Quiz</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>JavaScript Trivia Quiz</h1>
+    <div class="quiz">
+        <div id="questions__container" class="hide">
+            <div id="question"></div>
+
+            <div id="answers__container" class="answers__grid">
+                <button class="button answers__button"></button>
+                <button class="button answers__button"></button>
+                <button class="button answers__button "></button>
+                <button class="button answers__button"></button>
+            </div>
+        </div>
+
+        <div class="quiz__controls">
+            <button id="start" class="button button--start">Start</button>
+            <button id="next" class="button button--next hide">Next</button>
+        </div>
+    </div>
+
+<script type="module" src="./game.js"></script>
+</body>
+</html>
