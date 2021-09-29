@@ -1,7 +1,7 @@
 # JavaScript Trivia Game
 
 ## The Design :large_blue_diamond:
-The Morse Code translator was designed with a **mobile-first approach**, using a _css-grid_ & _flexbox_.
+This JavaScript Trivia Quiz was designed with a **mobile-first approach**, using a _css-grid_ & _flexbox_.
 
 ## The Code :large_orange_diamond:
 The quiz uses an `Object` array where we store our data i.e. our questions. Each question is an object with keys of _Question_, an array of _answers_. Each answer array contains 4 different objects where we store our answers, and we use a key _correct_ with a value of `true` for the correct answer and `false` for the remaining answers.
