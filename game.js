@@ -27,9 +27,9 @@ const nextQuestion = () => {
     showQuestion(shuffledQuestions[currentQuestions])
 }
 
-const showQuestion = (question) => {
-    questionElement.innerText = question.question
-    question.answers.forEach(answer => {
+const showQuestion = (qst) => {
+    questionElement.innerText = qst.question
+    qst.answers.forEach(answer => {
         const button = document.createElement('button')
         button.innerText = answer.quizAnswer
         button.classList.add('button')
