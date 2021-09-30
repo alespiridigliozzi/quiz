@@ -6,25 +6,25 @@ const questionsContainer = document.getElementById('questions__container')
 const questionElement = document.getElementById('question')
 const answersContainer = document.getElementById('answers__container')
 let shuffledQuestions;
-let currentQuestions;
+let currentQuestion;
 
 const startQuiz = () => {
     startButton.classList.add('hide');
     shuffledQuestions = questions.sort(() => Math.random() - .5)
-    currentQuestions = 0;
+    currentQuestion = 0;
     questionsContainer.classList.remove('hide')
     nextQuestion()
 }
 
 startButton.addEventListener('click', startQuiz);
 nextButton.addEventListener('click', () => {
-    currentQuestions++
+    currentQuestion++
     nextQuestion()
 })
 
 const nextQuestion = () => {
     reset()
-    showQuestion(shuffledQuestions[currentQuestions])
+    showQuestion(shuffledQuestions[currentQuestion])
 }
 
 const showQuestion = (qst) => {
@@ -55,7 +55,7 @@ const selectAnswer = (e) => {
     Array.from(answersContainer.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
-    if(shuffledQuestions.length > currentQuestions + 1) {
+    if(shuffledQuestions.length > currentQuestion + 1) {
         nextButton.classList.remove('hide')
     } else {
         startButton.innerText = 'Start Again!'

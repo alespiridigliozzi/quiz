@@ -20,6 +20,7 @@ body {
     h1 {
         margin: 10vh auto;
         text-align: center;
+        color: white;
     }
 }
 
@@ -27,15 +28,16 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    color: $color;
 }
 
 .quiz {
     width: 60vw;
     max-width: 60vw;
     background-color: $quiz-background;
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 20px;
-    box-shadow: 0 0 25px 2px grey;
+    box-shadow: 0 0 25px 2px rgba(49, 49, 49, 0.425);
 
     @include mobile {
         width: 90vw;
@@ -57,7 +59,7 @@ body {
 .button {
     background-color: $color;
     color: white;
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 10px 20px;
     outline: none;
     border: none;
