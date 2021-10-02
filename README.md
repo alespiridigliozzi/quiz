@@ -1,5 +1,7 @@
 # JavaScript Trivia Game
 
+![triviaquiz](https://github.com/alessandrothedev/quiz/blob/main/jstriviapreview.png)
+
 ## The Design :large_blue_diamond:
 This JavaScript Trivia Quiz was designed with a **mobile-first approach**, using a _css-grid_ & _flexbox_.
 
