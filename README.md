@@ -1,4 +1,5 @@
 # JavaScript Trivia Game
+[Check out the Live Demo Here](https://alessandrothedev.github.io/quiz/)
 
 ![triviaquiz](https://github.com/alessandrothedev/quiz/blob/main/jstriviapreview.png)
 
